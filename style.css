@@ -8,7 +8,7 @@
 /* Corpo da página */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #0d1b2a; /* Azul escuro */
+    background-color: #0d1b2a;
     color: #fff;
     margin: 0;
 }
@@ -20,11 +20,11 @@ header {
     left: 0;
     width: 100%;
     background-color: #0d1b2a;
-    color: #00ffcc; /* Neon Ciano */
+    color: #00ffcc;
     padding: 20px;
     text-align: center;
     z-index: 1000;
-    box-shadow: 0 4px 10px rgba(0, 255, 204, 0.5); /* Neon box-shadow */
+    box-shadow: 0 4px 10px rgba(0, 255, 204, 0.5);
 }
 
 header h1 {
@@ -32,7 +32,7 @@ header h1 {
     letter-spacing: 5px;
     text-transform: uppercase;
     margin-bottom: 15px;
-    text-shadow: 2px 2px 10px rgba(0, 255, 204, 0.8); /* Neon glow effect */
+    text-shadow: 2px 2px 10px rgba(0, 255, 204, 0.8);
 }
 
 header .cabeçalho-link {
@@ -54,17 +54,17 @@ header .cabeçalho-link li a {
 }
 
 header .cabeçalho-link li a:hover {
-    background-color: #00e5ff; /* Neon blue */
+    background-color: #00e5ff;
     color: #fff;
-    box-shadow: 0 0 10px rgba(0, 229, 255, 0.7); /* Neon blue hover */
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.7);
 }
 
-/* Espaço abaixo do cabeçalho */
+/* Espaço debaixo do cabeçalho */
 body {
-    padding-top: 120px; /* Espaço para o cabeçalho fixo */
+    padding-top: 120px; /* Espaço pro cabeçalho fixo */
 }
 
-/* Seção de boas-vindas (Meio) */
+/* Seção de boas-vindas (no meio) */
 .Meio {
     text-align: center;
     margin-top: 60px;
@@ -75,9 +75,9 @@ body {
 
 .Meio h1 {
     font-size: 3rem;
-    color: #00ffcc; /* Neon Ciano */
+    color: #00ffcc;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 10px rgba(0, 255, 204, 0.8); /* Neon glow */
+    text-shadow: 2px 2px 10px rgba(0, 255, 204, 0.8);
 }
 
 .Meio p {
@@ -89,10 +89,10 @@ body {
 section h1 {
     font-size: 2.5rem;
     text-align: center;
-    color: #ff00ff; /* Neon Magenta */
+    color: #ff00ff;
     margin-top: 50px;
     margin-bottom: 30px;
-    text-shadow: 2px 2px 10px rgba(255, 0, 255, 0.8); /* Neon glow */
+    text-shadow: 2px 2px 10px rgba(255, 0, 255, 0.8);
 }
 
 .Container-card-1 {
@@ -107,7 +107,7 @@ section h1 {
     background-color: #1c2541;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 255, 204, 0.3); /* Neon box-shadow */
+    box-shadow: 0 4px 10px rgba(0, 255, 204, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -118,21 +118,21 @@ section h1 {
     border-radius: 10px;
 }
 
-/* Destaques originais - interatividade */
+/* interatividade dos "Destaques" */
 .cards:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 255, 204, 0.5); /* Neon box-shadow on hover */
+    box-shadow: 0 8px 20px rgba(0, 255, 204, 0.5); 
 }
 
 /* Seção CTA (Call to Action) */
 .cta {
-    background-color: #00ffcc; /* Neon Ciano */
+    background-color: #00ffcc;
     color: #fff;
     padding: 40px 20px;
     text-align: center;
     margin-top: 60px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 255, 204, 0.3); /* Neon box-shadow */
+    box-shadow: 0 4px 10px rgba(0, 255, 204, 0.3);
 }
 
 .text-cta h6 {
@@ -150,7 +150,7 @@ section h1 {
 
 .text-cta .btn {
     padding: 15px 30px;
-    background-color: #00ffcc; /* Neon Ciano */
+    background-color: #00ffcc;
     color: #1c2541;
     border: none;
     border-radius: 8px;
@@ -162,9 +162,9 @@ section h1 {
 }
 
 .text-cta .btn:hover {
-    background-color: #00e5ff; /* Neon blue */
+    background-color: #00e5ff;
     color: #fff;
-    box-shadow: 0 0 10px rgba(0, 229, 255, 0.7); /* Neon hover effect */
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.7);
 }
 
 section h1 {
@@ -180,7 +180,7 @@ section h1 {
 }
 
 .cards {
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition to .cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cards img {
@@ -190,10 +190,9 @@ section h1 {
 }
 
 .cards:hover {
-    transform: scale(1.05); /* Image zoom effect */
+    transform: scale(1.05);
 }
 
-/* CTA Section */
 .cta {
     background-color: #5bc0be;
     padding: 40px 0;
@@ -224,7 +223,6 @@ section h1 {
     background-color: #366968;
 }
 
-/* Categories Section */
 .Categorias {
     text-align: center;
     margin-top: 40px;
@@ -242,12 +240,12 @@ section h1 {
     padding: 10px;
     text-align: center;
     width: 23%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transform and shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .jogo:hover {
-    transform: scale(1.03); /* Image zooms in slightly */
-    box-shadow: 0 4px 12px rgba(44, 62, 80, 0.6); /* Neon effect on hover */
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(44, 62, 80, 0.6);
 }
 
 .jogo img {
@@ -267,20 +265,19 @@ section h1 {
     font-size: 14px;
     color: rgb(95, 95, 95);
 }
-/* Categories Section - Remover o sublinhado dos links */
+
 .jogo a {
-    text-decoration: none; /* Remove o sublinhado dos links */
-    color: #fff; /* Cor do texto do link */
-    font-weight: bold; /* Negrito para o texto */
-    transition: color 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .jogo a:hover {
-    color: #00ffcc; /* Neon Ciano no hover */
-    box-shadow: 0 0 10px rgba(0, 255, 204, 0.7); /* Neon glow no hover */
+    color: #00ffcc;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.7);
 }
 
-/* Marcas (logos) */
 .logo {
     display: flex;
     justify-content: space-around;
@@ -296,25 +293,22 @@ section h1 {
 }
 @keyframes scroll-left {
     0% {
-        transform: translateX(-100%); /* Começa fora da tela à direita */
+        transform: translateX(-100%);
     }
     100% {
-        transform: translateX(100%); /* Move até o lado esquerdo, fora da tela */
+        transform: translateX(100%);
     }
 }
 
-
-/* Rodapé */
 .last-text {
     text-align: center;
     padding: 20px;
     background-color: #0d1b2a;
-    color: #00ffcc; /* Neon Ciano */
+    color: #00ffcc;
     font-size: 1rem;
     margin-top: 50px;
 }
 
-/* Animações */
 @keyframes fadeIn {
     0% {
         opacity: 0;
